@@ -1,0 +1,44 @@
+# LangChain Core
+langchain
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-experimental
+
+# Providers
+langchain-openai
+openai
+
+langchain-anthropic
+anthropic
+
+langchain-google-genai
+google-generativeai
+
+langchain-huggingface
+transformers
+huggingface-hub
+
+# vectorstores
+langchain-chroma
+chromadb
+faiss-cpu
+
+# Machine Learning Utilities
+torch --index-url https://download.pytorch.org/whl/cu121
+sentence-transformers
+numpy
+scikit-learn
+
+# supporting
+pypdf             # for pypdf loader inside data loaders
+beautifulsoup4    # for web base loader inside data loaders
+wikipedia
+youtube-transcript-api
+tiktoken
+ddgs
+
+# Infra
+python-dotenv
+streamlit
+ipykernel
